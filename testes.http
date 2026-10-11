@@ -1,0 +1,17 @@
+### 1. Teste de Cadastro de Usuário
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+  "email": "teste@gatekeeper.com",
+  "password": "Senha@Forte123"
+}
+
+### 2. Teste de Login de Usuário
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "teste@gatekeeper.com",
+  "password": "Senha@Forte123"
+}
